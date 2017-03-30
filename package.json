@@ -1,5 +1,5 @@
 {
-  "name": "@rubyrainbows/browser-localization",
+  "name": "browser-localization",
   "version": "0.0.1",
   "description": "Some browser localization helpers",
   "scripts": {
@@ -7,6 +7,10 @@
     "watch": "node_modules/karma/bin/karma start"
   },
   "author": "Thomas Muntaner <thomas.muntaner@gmail.com>",
+  "contributors": [{
+    "name": "Julian Hartmann",
+    "email": "hartmann@philasearch.com"
+  }],
   "license": "MIT",
   "devDependencies": {
     "babel-preset-env": "^1.2.2",

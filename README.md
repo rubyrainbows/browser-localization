@@ -1,7 +1,7 @@
 # Browser Localization
 
 [![Build Status](https://travis-ci.org/rubyrainbows/browser-localization.svg?branch=master)](https://travis-ci.org/rubyrainbows/browser-localization)
-[![npm version](https://badge.fury.io/js/%40rubyrainbows%2Fbrowser-localization.svg)](https://badge.fury.io/js/%40rubyrainbows%2Fbrowser-localization)
+[![npm version](https://badge.fury.io/js/browser-localization.svg)](https://badge.fury.io/js/browser-localization)
 
 Browser Localization is a library to help localize aspects of a website on the browser.
 
