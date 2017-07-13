@@ -60,4 +60,15 @@ describe('#numberLocalizer', function () {
         var localized = localizeNumber('de-DE', 'foo bar');
         expect(localized).to.equal('foo bar');
     });
+
+
+    it('should not convert anything if there are no numbers but period', function () {
+        var localized = localizeNumber('en-US', '.foo');
+        expect(localized).to.equal('.foo');
+    });
+
+    it('should convert if only cents', function () {
+        var localized = localizeNumber('de-DE', '.01');
+        expect(localized).to.equal('0,01');
+    });
 });

@@ -44,7 +44,7 @@ class LocalizedNumber {
                 break;
         }
 
-        return text.replace(/([0-9.,]+)/g, function (match, p1) {
+        return text.replace(/([0-9]*[.,][0-9]+|[0-9]+)/g, function (match, p1) {
             return parseFloat(p1).toLocaleString(this.locale, options);
         }.bind(this));
     }
